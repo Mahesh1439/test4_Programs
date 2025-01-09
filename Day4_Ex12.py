@@ -6,6 +6,25 @@ pattern:-10
 5	4	3	2	1
 1	2	3	4	5"""
 
+n=0
+for i in range(5):
+    for j in range(5):
+        if i%2==0:
+            n=n+1
+            print(n,end=" ")
+           
+        else:
+            print(n,end=" ")
+            n=n-1 
+    print()
+
+
+
+
+
+
+
+
 
 '''for i in range(5,0,-1):
     num1=1
